@@ -12,13 +12,21 @@ h4 {
     font-weight: bold;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 h2 {
-    
     color: green;
     font-size: 24px;
     font-weight: bold;
     font-family: "Tac One";
 }
+
+
 
 img {
     align-items: center;
@@ -45,16 +53,17 @@ body {
 }
 
 body {
-    background-color: white;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     
 }
 
 #nav {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: black;
     backdrop-filter: saturate(180%) blur(20px);
     padding: 1rem;
 }
@@ -71,25 +80,25 @@ body {
 
 #navmenu > li > a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
 }
 
 table,th,td {
-    border: 2px solid red;
+    border: 2px solid white;
     border-collapse: collapse;
     padding: 10px;
 }
 
 img{
-    width: 30px;
+    width: 70px;
 }
 table{
     width: 100%;
-    background-color: gray;
+    background-color: white;
 }
 
 th {
-    background-color: blueviolet;
+    background-color: white;
     color: white;
 
 }
@@ -105,31 +114,31 @@ tbody tr:nth-of-type(odd) {
 
 .badge {
     width: 20px;
-    background-color: blue;
+    background-color: white;
     border-radius: 50%;
     
 }
 
 div.exp {
-    color: aqua;
+    color: white;
 }
 
 #exp {
-    color: blueviolet;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     font-family: "Tac One";
 }
 
 #comp {
-    color: blue;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     font-family: "Tac One";
 }
 
 #reds {
-    color: red;
+    color: white;
     font-size: 24px;
     font-weight: bold;
     font-family: "Tac One";
